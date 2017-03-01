@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-  //listens for clicks on all page buttons
-  $('button').on('click', function(){
+  //listens for clicks on all color buttons
+  $('.color-button').on('click', function(){
 
     //assigns the value of the clicked button's data-color attribute to a new variable called $clickedButtonColor
     var $clickedButtonColor = $(this).data('color');
